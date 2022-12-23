@@ -1,21 +1,35 @@
 body{
     background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 .logo{
     border: 1px solid rgb(214, 111, 111);
     background-color: rgb(221, 213, 201);
 }
 #titulo_logo{
-    padding-left: 40px;   
+    padding-left: 60px;  
+    
 }
 
 .menu_navegacion {
 display: block;
   font-size: 19px;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 100px;
   padding-bottom: 10px;
+}
+.menu_navegacion ul{
+    padding: 0px;
+    margin: 0px;
 }
 .menu_navegacion li{
     display: inline-block;
+}
+.menu_navegacion li a{
+    color: black;
+    display: block;
+    padding: 10px;
+}
+.menu_navegacion li a:hover{
+    background-color: blanchedalmond;
 }
