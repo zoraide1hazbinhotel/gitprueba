@@ -1,0 +1,12 @@
+.logo{
+    border: 10px solid rgb(214, 111, 111);
+}
+#titulo_logo{
+    padding-left: 20px;   
+}
+
+.menu_navegacion {
+  font-size: 19px;
+  text-align: right;
+  padding-right: 10px;
+}
