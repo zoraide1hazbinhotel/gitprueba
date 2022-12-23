@@ -1,12 +1,21 @@
+body{
+    background-color: brown;
+}
 .logo{
-    border: 10px solid rgb(214, 111, 111);
+    border: 1px solid rgb(214, 111, 111);
+    background-color: rgb(221, 213, 201);
 }
 #titulo_logo{
-    padding-left: 20px;   
+    padding-left: 40px;   
 }
 
 .menu_navegacion {
+display: block;
   font-size: 19px;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.menu_navegacion li{
+    display: inline-block;
 }
