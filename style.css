@@ -7,7 +7,8 @@ body{
     background-color: rgb(221, 213, 201);
 }
 #titulo_logo{
-    padding-left: 60px;  
+    padding-left: 60px; 
+    padding-top: 10px; 
     
 }
 
